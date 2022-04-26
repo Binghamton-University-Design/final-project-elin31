@@ -2,7 +2,7 @@
 
 /* vars */
 :root {
-  --background-color: #fff;
+  --background-color: #000;
   --body-color: #111;
 }
 
@@ -17,12 +17,13 @@ body {
   max-width: 1200px;
 }
 
-{
-  /* background */
-  margin: 0; padding: 0;
-  width: 100vw; min-height: 100vh;
-  background-image: url("opening_page.jpg");
+#background-image {
+  margin: 0;
+  padding: 0;
+
+  width: auto; min-height: auto;
+  background-image: url(..images/opening_page.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+ }
