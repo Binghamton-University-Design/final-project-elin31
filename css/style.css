@@ -36,6 +36,7 @@ html, body {
  }
 
  #enter-button {
+  padding-top: 100px;
   width: 100%;
   text-align: center;
  }
@@ -46,3 +47,11 @@ html, body {
   width: 100%;
   text-align: center;
  }
+
+ @keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+.animate-flicker {
+    animation: fadeIn 1s infinite alternate;
+}
