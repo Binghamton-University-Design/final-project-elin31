@@ -31,8 +31,18 @@ html, body {
  #enter {
   width: 100vw;
   height: 100vh;
-
   display: flex;
   align-items: center;
+ }
 
+ #enter-button {
+  width: 100%;
+  text-align: center;
+ }
+
+ #headphones {
+  position: absolute;
+  bottom:  0;
+  width: 100%;
+  text-align: center;
  }
