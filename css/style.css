@@ -6,7 +6,8 @@
   --body-color: #111;
 }
 
-body {
+html, body {
+  height: 100%;
   margin: 0;
   color:  var(--body-color);  
   background: var(--background-color);
@@ -17,13 +18,21 @@ body {
   max-width: 1200px;
 }
 
-#background-image {
+#background-image-open {
   margin: 0;
   padding: 0;
 
-  width: auto; min-height: auto;
-  background-image: url(..images/opening_page.png);
+  background-image: url(../images/comp_grass_bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+ }
+
+ #enter {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+
  }
