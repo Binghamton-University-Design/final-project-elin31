@@ -55,3 +55,34 @@ html, body {
 .animate-flicker {
     animation: fadeIn 1s infinite alternate;
 }
+
+
+
+
+#background-image-loading {
+  margin: 0;
+  padding: 0;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+
+#ctrlloading {
+  width: 100%;
+  text-align: center;
+}
+
+ #lyricsloop {
+  position: absolute;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  text-align: center;
+  }
+
+  #loadinggif {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  }
