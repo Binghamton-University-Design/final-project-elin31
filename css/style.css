@@ -63,7 +63,7 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- }
+}
 
 #ctrlloading {
   width: 100%;
@@ -80,7 +80,7 @@ html, body {
   padding-bottom: 50px;
   width: 100%;
   text-align: center;
-  }
+}
 
   #startgif {
   position: absolute;
@@ -88,12 +88,30 @@ html, body {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  }
+}
 
   #designedbyemily {
   width: 100%;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+#background-image-menu {
+  margin: 0;
+  padding: 0;
+
+  background-image: url(../images/menubg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ #ctrldropshadow {
+  position: absolute;
+  text-align: left;
+  padding-top: 300px;
+  padding-bottom: 450px;
+  padding-left: 80px;
 }
 
