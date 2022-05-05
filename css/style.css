@@ -56,9 +56,6 @@ html, body {
     animation: fadeIn 1s infinite alternate;
 }
 
-
-
-
 #background-image-loading {
   margin: 0;
   padding: 0;
@@ -71,12 +68,16 @@ html, body {
 #ctrlloading {
   width: 100%;
   text-align: center;
+  padding-bottom: 50px;
+  padding-top: 150px;
 }
 
  #lyricsloop {
   position: absolute;
   padding-left: 100px;
   padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 100%;
   text-align: center;
   }
@@ -85,10 +86,14 @@ html, body {
   position: absolute;
   width: 100%;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
   }
 
   #designedbyemily {
   width: 100%;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
