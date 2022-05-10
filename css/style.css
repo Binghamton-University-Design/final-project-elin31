@@ -109,11 +109,17 @@ html, body {
 
  #ctrldropshadow {
   text-align: left;
-  padding-bottom: 100px;
   padding-left: 80px;
+  padding-top: 190px;
 }
 
  #songmenu {
   text-align: left;
   padding-left: 20px;
+  padding-top: 15px;
+}
+
+ #menugarden {
+  text-align: left;
+  padding-left: 255px;
 }
